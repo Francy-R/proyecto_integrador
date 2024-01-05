@@ -1,4 +1,244 @@
-/*Color principal*/
-body {
-  background: #093931;
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Manrope&display=swap");
+
+:root {
+  --cormorant: "Cormorant Garamond";
+  --manrope: "Manrope";
+  --background-section1: #093931;
+  --color-texto1: #f5d38e;
+  --color-texto2: #f2c66d;
+  --color-texto3: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+/*-----------------------------SESION 1---------------------------*/
+
+
+.homepage {
+  background-color:var(--color-texto3);
+  width: 1440px;
+  height: 4583px;
+}
+
+.section1 {  
+  height: 821px;
+  background-color: var(--background-section1);
+  background-image: url(./assets/olas_blancas.png);
+  position: relative;
+}
+
+.header {  
+  height: 62px;
+  display: flex;
+  align-items: center;  
+}
+
+.header__p {
+  display: flex;
+  color: var(--color-texto1);
+  font-family: var(--cormorant);
+  font-size: 30px;
+  margin-left: 134px;
+  margin-right: 559px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: right;
+}
+
+.nav__ul {
+  display: flex;
+  gap: 30px;
+  margin-right: 132px;
+}
+
+.nav__li {
+  list-style-type: none;
+}
+
+.nav__a {
+  text-decoration: none;
+  color: var(--color-texto3);
+  font-size: 14px;
+  font-family: var(--manrope);
+}
+
+.nav__a-active {
+  color: var(--color-texto2);
+  font-weight: 700;
+}
+
+.nav__rectangle {
+  position: absolute;
+  width: 70px;
+  height: 4px;
+  top: 39px;
+  left: 0;
+  background-color: #f2c66d;
+  border-radius: 2px;
+  margin-left: 762px;
+  margin-top: 8px;
+}
+
+.section1__parrafo {
+  width: 537px;
+  height: 282px;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 94px;
+  color: var(--color-texto1);
+  font-family: var(--cormorant);
+  margin-top: 170px;
+  margin-left: 132px;
+  margin-right: 771px;
+}
+
+.section1__button {
+  display: inline-flex;
+  padding: 12px 59px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 26px;
+  border: 1px solid #fff;
+  background: rgba(0, 0, 0, 0);
+  margin-top: 24px;
+  margin-left: 132px;
+  font-family: var(--manrope);
+  color: var(--color-texto3);
+  font-size: 18px;
+}
+
+.section1__images {
+  position: absolute;
+  width: 568px;
+  height: 543px;
+  top: 139px;
+  left: 741px;
+}
+
+.images__imagebig {
+  position: absolute;
+  width: 407px;
+  height: 543px;
+  top: 0;
+  left: 0;
+}
+
+.images__imagesmall {
+  position: absolute;
+  width: 275px;
+  height: 355px;
+  top: 102px;
+  left: 293px;
+}
+
+.images__iconbutton {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 26px;
+  border-style: solid;
+  border-color: #effdfa;
+  border-width: 1px;
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  right: 114px;
+  top: 248px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+
+.iconbutton__play {
+  position: absolute;
+  transform: translate(10px, 10px);
+  width: 31px;
+  height: 31px;
+}
+
+.sections {
+ background-color: #FFFFFF;
+ Width: 1440px;
+}
+
+
+/*-----------------------------SESION 2---------------------------*/
+.section__2 {
+  Height: 232px;
+  top: 845;
+  display: flex;
+}
+
+.content__section2 {
+  width: 62px;
+  height: 62px;
+  margin-top: 36px;
+  margin-left: 287px;
+} 
+
+.h3__section2 {
+  height: 28px;
+  top: 116px;
+  font-family: var(--manrope);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #171A1F;
+
+
+}
+
+.text__section2 {
+  font-family: Manrope;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+}
+
+/*-----------------------------SESION 3---------------------------*/
+
+.section3 {
+  Height: 506px;
+}
+
+/*-----------------------------SESION 4---------------------------*/
+
+.section__4 {
+  Height: 1082px;
+  top: 1607px;
+}
+
+/*-----------------------------SESION 5---------------------------*/
+
+.section__5 {
+  Height: 554px;
+  top: 2713px;
+}
+
+/*-----------------------------SESION 6---------------------------*/
+
+.section__6 {
+  Height: 564px;
+  top: 3267px;
+}
+
+/*-----------------------------SESION 7---------------------------*/
+
+.section__7 {
+  height: 522px;
+  top: 3831px;
+  background-color: 
+  #093931;
+}
+
+.footer {
+  height: 234px;
+  top: 4349px;
+  background-color: #093931;
 }
