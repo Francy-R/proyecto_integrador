@@ -8,6 +8,8 @@
   --color-texto1: #f5d38e;
   --color-texto2: #f2c66d;
   --color-texto3: #ffffff;
+  --color-texto-s3: #0D554A;
+
 }
 
 * {
@@ -172,6 +174,7 @@
   Height: 232px;
   top: 845;
   display: flex;
+  background-color: #171A1F;
 }
 
 .content__section2 {
@@ -205,6 +208,48 @@
 
 .section3 {
   Height: 506px;
+}
+
+.section3__button {
+  display: inline-flex;
+  padding: 12px 59px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 26px;
+  border: 1px solid var(--color-texto-s3);
+  background: #00000000;
+  margin-top: 24px;
+  margin-left: 132px;
+  margin-right: 112px;
+  font-family: var(--manrope);
+  color: var(--color-texto-s3);
+  font-size: 18px;
+}
+
+.section3__titulo {
+  width: 264px;
+  height: 112px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 56px;
+  color: var(--color-texto-s3);
+  font-family: var(--cormorant);
+  margin-top: 54px;
+  margin-left: 132px;
+  margin-right: 48px;
+}
+
+.section3__parrafo {
+  width: 264px;
+  height: 78px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #9095A0;
+  font-family: var(--manrope);
+  margin-top: 12px;
+  margin-left: 132px;
+  margin-right: 48px;
 }
 
 /*-----------------------------SESION 4---------------------------*/
