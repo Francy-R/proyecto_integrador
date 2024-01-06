@@ -222,7 +222,7 @@
   color: var(--color-texto-s3);
   font-family: var(--cormorant);
   margin-top: 54px;
-  margin-left: 132px
+  margin-left: 132px;
 }
 
 .section__p {
@@ -305,14 +305,14 @@
 
 /*-----------------------------SESION 4---------------------------*/
 
-.section__4 {
+.section4 {
   Height: 1082px;
-  top: 1607px;
+  background-color: #093931;
 }
 
 /*-----------------------------SESION 5---------------------------*/
 
-.section__5 {
+.section5 {
   Height: 554px;
 }
 
@@ -326,22 +326,50 @@
 
 /*-----------------------------SESION 6---------------------------*/
 
-.section__6 {
+.section6 {
   Height: 564px;
-  top: 3267px;
 }
 
 /*-----------------------------SESION 7---------------------------*/
 
-.section__7 {
+.section7 {
   height: 522px;
-  top: 3831px;
-  background-color: 
-  #093931;
+  background-color:  #093931;
 }
+
+.s7_title {
+  font-family: var(--cormorant);
+  color: #fff;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 68px;
+  margin-top: 169px;
+  margin-left: 132px;
+  font-weight: 600;
+  width: 311px;
+  height: 68px;
+}
+
+.s7_p {
+  height: 78px;
+  color: #FFFFFF;
+  top: 249px;
+}
+
+.s7_card {
+  width: 696px;
+  height: 375px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(23, 26, 31, 0.30);
+  overflow: hidden;
+  margin-top: 72px;
+  margin-left: 612px;
+}
+
+/*----------------------------- FOOTER ---------------------------*/
 
 .footer {
   height: 234px;
-  top: 4349px;
   background-color: #093931;
 }
