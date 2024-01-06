@@ -337,6 +337,7 @@
   background-color:  #093931;
 }
 
+
 .s7_title {
   font-family: var(--cormorant);
   color: #fff;
@@ -356,20 +357,63 @@
   top: 249px;
 }
 
+.s7_container_button {
+  display: flex;
+}
+.s7_button {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  margin-top: 117.5;
+}
+
+/*---------------- card sesion 7 ------------------*/
+.s7_content {
+  justify-content: space-around;
+  overflow: hidden;
+  display: flex;
+}
 .s7_card {
+  margin-top: 72px;
   width: 696px;
   height: 375px;
+  margin-left: 169px;
   flex-shrink: 0;
   border-radius: 8px;
   background: rgba(23, 26, 31, 0.30);
   overflow: hidden;
-  margin-top: 72px;
-  margin-left: 612px;
+  display: flex;
+  
+}
+
+.s7_card_body {
+
+  flex-direction: column;
+
+}
+
+.s7_p_card {
+  margin-left: 36px;
+  margin-top: 60px;
+  margin-bottom: 136px;
+}
+
+.s7_h3_card {
+  color: #fff;
+  font-family: var(--manrope);
+  font-size: 20px;
+  margin-left: 36px;
+}
+
+.s7_country {
+  margin-left: 36px;
+  color: #FFFFFF;
 }
 
 /*----------------------------- FOOTER ---------------------------*/
 
 .footer {
+  width: 1440px;
   height: 234px;
   background-color: #093931;
 }
