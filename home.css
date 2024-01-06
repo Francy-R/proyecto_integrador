@@ -205,9 +205,36 @@
 }
 
 /*-----------------------------SESION 3---------------------------*/
-
 .section3 {
-  Height: 506px;
+  height: 506px;
+}
+
+.s3 {
+  margin-left: 132px;
+}
+
+.section3__titulo {
+  width: 264px;
+  height: 112px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 56px;
+  color: var(--color-texto-s3);
+  font-family: var(--cormorant);
+  margin-top: 54px;
+  margin-left: 132px
+}
+
+.section3__parrafo {
+  width: 264px;
+  height: 78px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #9095a0;
+  font-family: var(--manrope);
+  margin-top: 12px;
+  margin-left: 132px;
 }
 
 .section3__button {
@@ -220,36 +247,58 @@
   background: #00000000;
   margin-top: 24px;
   margin-left: 132px;
-  margin-right: 112px;
   font-family: var(--manrope);
   color: var(--color-texto-s3);
   font-size: 18px;
 }
 
-.section3__titulo {
-  width: 264px;
-  height: 112px;
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 56px;
-  color: var(--color-texto-s3);
-  font-family: var(--cormorant);
-  margin-top: 54px;
-  margin-left: 132px;
-  margin-right: 48px;
+/*----------------------------- card ---------------------------*/
+.content {
+  margin-left: 70px;
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+
 }
 
-.section3__parrafo {
-  width: 264px;
-  height: 78px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  color: #9095A0;
-  font-family: var(--manrope);
+.card__contents3 {
+  overflow: hidden;
+  margin-right: 24px;
+  width: 276px;
+  height: 410px;
+  flex-shrink: 0;
+  top: 48px;
+  left: 444px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 0px 1px 0px rgba(23, 26, 31, 0.07),
+    0px 0px 2px 0px rgba(23, 26, 31, 0.12);
+}
+.img_with_space {
+  margin-left: 48px;
+}
+.img_whithout_space {
+ margin-right: 0;
+}
+
+.h3_card_s3 {
   margin-top: 12px;
-  margin-left: 132px;
-  margin-right: 48px;
+  color: #171A1F;
+  font-family: var(--cormorant);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; 
+}
+
+.price {
+  color: #171A1F;
+  font-family: var(--manrope);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
 }
 
 /*-----------------------------SESION 4---------------------------*/
