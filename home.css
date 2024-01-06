@@ -213,7 +213,7 @@
   margin-left: 132px;
 }
 
-.section3__titulo {
+.section__title {
   width: 264px;
   height: 112px;
   font-size: 40px;
@@ -225,7 +225,7 @@
   margin-left: 132px
 }
 
-.section3__parrafo {
+.section__p {
   width: 264px;
   height: 78px;
   font-size: 16px;
@@ -237,7 +237,7 @@
   margin-left: 132px;
 }
 
-.section3__button {
+.section__button {
   display: inline-flex;
   padding: 12px 59px;
   justify-content: center;
@@ -262,7 +262,7 @@
 
 }
 
-.card__contents3 {
+.card__content {
   overflow: hidden;
   margin-right: 24px;
   width: 276px;
@@ -282,7 +282,7 @@
  margin-right: 0;
 }
 
-.h3_card_s3 {
+.h3_card {
   margin-top: 12px;
   color: #171A1F;
   font-family: var(--cormorant);
@@ -312,7 +312,14 @@
 
 .section__5 {
   Height: 554px;
-  top: 2713px;
+}
+
+.s5 {
+  margin-left: 132px;
+}
+
+.s5_p {
+  color: #424955;
 }
 
 /*-----------------------------SESION 6---------------------------*/
