@@ -350,8 +350,14 @@
   justify-content: space-around;
   overflow: hidden;
   display: flex;
+  position: absolute;
 }
 
+.s7 {
+  margin-left: 132px;
+  width: 311px;
+
+}
 .section7__title {
   font-family: var(--cormorant);
   color: #fff;
@@ -359,16 +365,20 @@
   font-size: 48px;
   line-height: 68px;
   margin-top: 169px;
-  margin-left: 132px;
   font-weight: 600;
   width: 311px;
   height: 68px;
 }
 
 .section7__p {
-  height: 78px;
+  width: 264px;
   color: #FFFFFF;
   top: 249px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: var(--manrope);
+  margin-top: 12px;
 }
 
 
@@ -397,6 +407,7 @@
   margin-left: 36px;
   margin-top: 60px;
   margin-bottom: 136px;
+  width: 324px;
 }
 
 .section7__card__h3 {
