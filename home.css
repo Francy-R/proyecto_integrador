@@ -255,7 +255,6 @@
 /*----------------------------- card ---------------------------*/
 .content {
   margin-left: 70px;
-  margin-top: 48px;
   display: flex;
   justify-content: space-around;
   overflow: hidden;
@@ -268,7 +267,7 @@
   width: 276px;
   height: 410px;
   flex-shrink: 0;
-  top: 48px;
+  margin-top: 48px;
   left: 444px;
   border-radius: 8px;
   background: #fff;
