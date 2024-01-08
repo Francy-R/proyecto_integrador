@@ -313,10 +313,15 @@
 
 .section5 {
   Height: 554px;
+  background-color:#FAFAFB;;
 }
 
 .s5 {
   margin-left: 132px;
+}
+
+.section5__title {
+  margin-top: 78px;
 }
 
 .s5_p {
@@ -341,8 +346,13 @@
   background-color:  #093931;
 }
 
+.section7__container {
+  justify-content: space-around;
+  overflow: hidden;
+  display: flex;
+}
 
-.s7_title {
+.section7__title {
   font-family: var(--cormorant);
   color: #fff;
   font-style: normal;
@@ -355,27 +365,16 @@
   height: 68px;
 }
 
-.s7_p {
+.section7__p {
   height: 78px;
   color: #FFFFFF;
   top: 249px;
 }
 
 
-.s7_button {
-  width: 52px;
-  height: 52px;
-  position: absolute;
-  margin-top: 117.5;
-}
-
 /*---------------- card sesion 7 ------------------*/
-.s7_content {
-  justify-content: space-around;
-  overflow: hidden;
-  display: flex;
-}
-.s7_card {
+
+.section7__card {
   margin-top: 72px;
   width: 696px;
   height: 375px;
@@ -388,28 +387,43 @@
   
 }
 
-.s7_card_body {
+.section7__card__body {
 
   flex-direction: column;
 
 }
 
-.s7_p_card {
+.section7__card__p {
   margin-left: 36px;
   margin-top: 60px;
   margin-bottom: 136px;
 }
 
-.s7_h3_card {
+.section7__card__h3 {
   color: #fff;
   font-family: var(--manrope);
   font-size: 20px;
   margin-left: 36px;
 }
 
-.s7_country {
+.section7__card__country {
   margin-left: 36px;
   color: #FFFFFF;
+}
+/*--------------------------------------------------------------------*/
+
+.section7__card__button {
+  position: absolute;
+  top: 421px;
+  transform-origin: 0;
+  transform: rotate(g);
+}
+
+.section7_button {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  margin-top: 117.5;
 }
 
 /*----------------------------- FOOTER ---------------------------*/
