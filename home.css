@@ -323,10 +323,15 @@
   color: #424955;
 }
 
+.s5_card_content {
+  margin-top: 72px;
+}
+
 /*-----------------------------SESION 6---------------------------*/
 
 .section6 {
   Height: 564px;
+  background-color: #171A1F;
 }
 
 /*-----------------------------SESION 7---------------------------*/
@@ -356,9 +361,7 @@
   top: 249px;
 }
 
-.s7_container_button {
-  display: flex;
-}
+
 .s7_button {
   width: 52px;
   height: 52px;
